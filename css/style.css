@@ -1,0 +1,116 @@
+.hidden {
+    display: none;
+}
+
+/* 배경 이미지 */
+img {
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.7;
+    z-index: -1;
+    background-size: cover;
+}
+
+/* 날씨 */
+#weather {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* 요일 */
+#day {
+    position:absolute;
+    top: 20%;
+    left: 30%;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* 시계 */
+#clock {
+    position:absolute;
+    top: 23%;
+    left: 32%;
+    color: black;
+    text-align: center;
+    font-size: 95px;
+    font-weight: bold;
+}
+/* 로그인 폼 */
+#login-form {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-align: center;
+}
+
+/* 로그인 입력 */
+.login {
+    text-align: center;
+    width: 15vw;
+    height: 5vh;
+    opacity: 0.5;
+    border: 2px solid;
+    border-radius: 40px;
+}
+
+/* 로그인 버튼 */
+.button {
+    width:5vw;
+    height: 5vh;
+    opacity: 0.9;
+    border-radius: 20px;
+    border: 2px solid;
+}
+
+/* 로그인 후 Hello username*/
+#greeting {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Todolist 입력칸 */
+.input {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 20vw;
+    height: 5vh;
+    opacity: 0.5;
+    border: 2px solid;
+    border-radius: 40px;
+    text-align: center;
+}
+
+/* 입력된 todo lis*/
+#todo-list{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    width: 5vw;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 명언 */
+#quote {
+    position: absolute;
+    bottom: 5%;
+    left: 33%;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
